@@ -1,0 +1,646 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3738C37-2A16-4A49-A7A8-130832886C34}|Service\\Service.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3738C37-2A16-4A49-A7A8-130832886C34}|Service\\Service.csproj|solutionrelative:service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3738C37-2A16-4A49-A7A8-130832886C34}|Service\\Service.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\service\\secretariaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3738C37-2A16-4A49-A7A8-130832886C34}|Service\\Service.csproj|solutionrelative:service\\secretariaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3738C37-2A16-4A49-A7A8-130832886C34}|Service\\Service.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\service\\medicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3738C37-2A16-4A49-A7A8-130832886C34}|Service\\Service.csproj|solutionrelative:service\\medicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3738C37-2A16-4A49-A7A8-130832886C34}|Service\\Service.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\service\\consultaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3738C37-2A16-4A49-A7A8-130832886C34}|Service\\Service.csproj|solutionrelative:service\\consultaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\interface\\service\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|solutionrelative:interface\\service\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\interface\\service\\isecretariaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|solutionrelative:interface\\service\\isecretariaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\interface\\service\\imedicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|solutionrelative:interface\\service\\imedicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\interface\\service\\iconsultaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|solutionrelative:interface\\service\\iconsultaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\interface\\repositorio\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|solutionrelative:interface\\repositorio\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\interface\\repositorio\\isecretariarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|solutionrelative:interface\\repositorio\\isecretariarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\interface\\repositorio\\imedicorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|solutionrelative:interface\\repositorio\\imedicorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\interface\\repositorio\\iconsultarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|solutionrelative:interface\\repositorio\\iconsultarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E2C602-2031-440B-8E35-A2E3944C7F6A}|InfraEstrutura\\InfraEstrutura.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\infraestrutura\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70E2C602-2031-440B-8E35-A2E3944C7F6A}|InfraEstrutura\\InfraEstrutura.csproj|solutionrelative:infraestrutura\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E2C602-2031-440B-8E35-A2E3944C7F6A}|InfraEstrutura\\InfraEstrutura.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\infraestrutura\\repositorio\\secretariarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70E2C602-2031-440B-8E35-A2E3944C7F6A}|InfraEstrutura\\InfraEstrutura.csproj|solutionrelative:infraestrutura\\repositorio\\secretariarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E2C602-2031-440B-8E35-A2E3944C7F6A}|InfraEstrutura\\InfraEstrutura.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\infraestrutura\\repositorio\\medicorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70E2C602-2031-440B-8E35-A2E3944C7F6A}|InfraEstrutura\\InfraEstrutura.csproj|solutionrelative:infraestrutura\\repositorio\\medicorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E2C602-2031-440B-8E35-A2E3944C7F6A}|InfraEstrutura\\InfraEstrutura.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\infraestrutura\\repositorio\\consultarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70E2C602-2031-440B-8E35-A2E3944C7F6A}|InfraEstrutura\\InfraEstrutura.csproj|solutionrelative:infraestrutura\\repositorio\\consultarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E2C602-2031-440B-8E35-A2E3944C7F6A}|InfraEstrutura\\InfraEstrutura.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\infraestrutura\\data\\contextoconsultafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70E2C602-2031-440B-8E35-A2E3944C7F6A}|InfraEstrutura\\InfraEstrutura.csproj|solutionrelative:infraestrutura\\data\\contextoconsultafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E2C602-2031-440B-8E35-A2E3944C7F6A}|InfraEstrutura\\InfraEstrutura.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\infraestrutura\\data\\consultacontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70E2C602-2031-440B-8E35-A2E3944C7F6A}|InfraEstrutura\\InfraEstrutura.csproj|solutionrelative:infraestrutura\\data\\consultacontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\dominio\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\dominio\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|solutionrelative:dominio\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\dominio\\dtos\\secretariadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|solutionrelative:dominio\\dtos\\secretariadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\dominio\\entidades\\secretaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\secretaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\dominio\\entidades\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\dominio\\entidades\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\dominio\\dtos\\medicodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|solutionrelative:dominio\\dtos\\medicodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\dominio\\dtos\\consultadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5030473E-4620-41CE-A552-B505EB05FE97}|Dominio\\Dominio.csproj|solutionrelative:dominio\\dtos\\consultadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\consultamedica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|solutionrelative:consultamedica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\consultamedica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|solutionrelative:consultamedica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\consultamedica\\validation\\consultavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|solutionrelative:consultamedica\\validation\\consultavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\consultamedica\\validation\\medicovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|solutionrelative:consultamedica\\validation\\medicovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\consultamedica\\validation\\secretariavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|solutionrelative:consultamedica\\validation\\secretariavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\consultamedica\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|solutionrelative:consultamedica\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\consultamedica\\controllers\\secretariacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|solutionrelative:consultamedica\\controllers\\secretariacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\consultamedica\\controllers\\medicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|solutionrelative:consultamedica\\controllers\\medicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\consultamedica\\controllers\\consultacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|solutionrelative:consultamedica\\controllers\\consultacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\consultamedica\\validation\\usuariovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE2101D-FE94-4BAE-BF5D-234F4502E5C2}|ConsultaMedica\\ConsultaMedica.csproj|solutionrelative:consultamedica\\validation\\usuariovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|e:\\programacao-api-backend\\cadastroconsultasmedicas\\consultamedica\\interface\\interface.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D41A6CD-DA0E-4CC9-8C0A-FF2C7CF5D3D4}|Interface\\Interface.csproj|solutionrelative:interface\\interface.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISecretariaRepositorio.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Repositorio\\ISecretariaRepositorio.cs",
+              "RelativeDocumentMoniker": "Interface\\Repositorio\\ISecretariaRepositorio.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Repositorio\\ISecretariaRepositorio.cs",
+              "RelativeToolTip": "Interface\\Repositorio\\ISecretariaRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T17:45:51.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUsuarioRepositorio.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Repositorio\\IUsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "Interface\\Repositorio\\IUsuarioRepositorio.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Repositorio\\IUsuarioRepositorio.cs",
+              "RelativeToolTip": "Interface\\Repositorio\\IUsuarioRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:26:58.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IConsultaService.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Service\\IConsultaService.cs",
+              "RelativeDocumentMoniker": "Interface\\Service\\IConsultaService.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Service\\IConsultaService.cs",
+              "RelativeToolTip": "Interface\\Service\\IConsultaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:37:36.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMedicoService.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Service\\IMedicoService.cs",
+              "RelativeDocumentMoniker": "Interface\\Service\\IMedicoService.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Service\\IMedicoService.cs",
+              "RelativeToolTip": "Interface\\Service\\IMedicoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:37:28.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISecretariaService.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Service\\ISecretariaService.cs",
+              "RelativeDocumentMoniker": "Interface\\Service\\ISecretariaService.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Service\\ISecretariaService.cs",
+              "RelativeToolTip": "Interface\\Service\\ISecretariaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T17:46:39.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Service\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Interface\\Service\\IUsuarioService.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Service\\IUsuarioService.cs",
+              "RelativeToolTip": "Interface\\Service\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:37:19.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConsultaService.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Service\\ConsultaService.cs",
+              "RelativeDocumentMoniker": "Service\\ConsultaService.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Service\\ConsultaService.cs",
+              "RelativeToolTip": "Service\\ConsultaService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:41:40.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MedicoService.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Service\\MedicoService.cs",
+              "RelativeDocumentMoniker": "Service\\MedicoService.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Service\\MedicoService.cs",
+              "RelativeToolTip": "Service\\MedicoService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:41:29.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SecretariaService.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Service\\SecretariaService.cs",
+              "RelativeDocumentMoniker": "Service\\SecretariaService.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Service\\SecretariaService.cs",
+              "RelativeToolTip": "Service\\SecretariaService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwBAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T17:47:52.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Service\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Service\\UsuarioService.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Service\\UsuarioService.cs",
+              "RelativeToolTip": "Service\\UsuarioService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwC8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:41:21.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IMedicoRepositorio.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Repositorio\\IMedicoRepositorio.cs",
+              "RelativeDocumentMoniker": "Interface\\Repositorio\\IMedicoRepositorio.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Repositorio\\IMedicoRepositorio.cs",
+              "RelativeToolTip": "Interface\\Repositorio\\IMedicoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:27:06.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IConsultaRepositorio.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Repositorio\\IConsultaRepositorio.cs",
+              "RelativeDocumentMoniker": "Interface\\Repositorio\\IConsultaRepositorio.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Repositorio\\IConsultaRepositorio.cs",
+              "RelativeToolTip": "Interface\\Repositorio\\IConsultaRepositorio.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:27:16.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioRepositorio.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\InfraEstrutura\\Repositorio\\UsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "InfraEstrutura\\Repositorio\\UsuarioRepositorio.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\InfraEstrutura\\Repositorio\\UsuarioRepositorio.cs",
+              "RelativeToolTip": "InfraEstrutura\\Repositorio\\UsuarioRepositorio.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:25:47.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SecretariaRepositorio.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\InfraEstrutura\\Repositorio\\SecretariaRepositorio.cs",
+              "RelativeDocumentMoniker": "InfraEstrutura\\Repositorio\\SecretariaRepositorio.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\InfraEstrutura\\Repositorio\\SecretariaRepositorio.cs",
+              "RelativeToolTip": "InfraEstrutura\\Repositorio\\SecretariaRepositorio.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T17:43:53.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MedicoRepositorio.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\InfraEstrutura\\Repositorio\\MedicoRepositorio.cs",
+              "RelativeDocumentMoniker": "InfraEstrutura\\Repositorio\\MedicoRepositorio.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\InfraEstrutura\\Repositorio\\MedicoRepositorio.cs",
+              "RelativeToolTip": "InfraEstrutura\\Repositorio\\MedicoRepositorio.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA9wC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:26:26.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConsultaRepositorio.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\InfraEstrutura\\Repositorio\\ConsultaRepositorio.cs",
+              "RelativeDocumentMoniker": "InfraEstrutura\\Repositorio\\ConsultaRepositorio.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\InfraEstrutura\\Repositorio\\ConsultaRepositorio.cs",
+              "RelativeToolTip": "InfraEstrutura\\Repositorio\\ConsultaRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:26:36.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ContextoConsultaFactory.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\InfraEstrutura\\Data\\ContextoConsultaFactory.cs",
+              "RelativeDocumentMoniker": "InfraEstrutura\\Data\\ContextoConsultaFactory.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\InfraEstrutura\\Data\\ContextoConsultaFactory.cs",
+              "RelativeToolTip": "InfraEstrutura\\Data\\ContextoConsultaFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:19:47.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConsultaContexto.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\InfraEstrutura\\Data\\ConsultaContexto.cs",
+              "RelativeDocumentMoniker": "InfraEstrutura\\Data\\ConsultaContexto.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\InfraEstrutura\\Data\\ConsultaContexto.cs",
+              "RelativeToolTip": "InfraEstrutura\\Data\\ConsultaContexto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:21:13.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Usuario.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:08:13.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Dtos\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "Dominio\\Dtos\\UsuarioDTO.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Dtos\\UsuarioDTO.cs",
+              "RelativeToolTip": "Dominio\\Dtos\\UsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:13:40.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SecretariaDTO.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Dtos\\SecretariaDTO.cs",
+              "RelativeDocumentMoniker": "Dominio\\Dtos\\SecretariaDTO.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Dtos\\SecretariaDTO.cs",
+              "RelativeToolTip": "Dominio\\Dtos\\SecretariaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T17:40:54.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Secretaria.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Entidades\\Secretaria.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Secretaria.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Entidades\\Secretaria.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Secretaria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T17:40:29.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Medico.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Entidades\\Medico.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Medico.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Entidades\\Medico.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Medico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:08:34.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Consulta.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Entidades\\Consulta.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Consulta.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Entidades\\Consulta.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Consulta.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:08:27.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MedicoDTO.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Dtos\\MedicoDTO.cs",
+              "RelativeDocumentMoniker": "Dominio\\Dtos\\MedicoDTO.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Dtos\\MedicoDTO.cs",
+              "RelativeToolTip": "Dominio\\Dtos\\MedicoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:13:50.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ConsultaDTO.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Dtos\\ConsultaDTO.cs",
+              "RelativeDocumentMoniker": "Dominio\\Dtos\\ConsultaDTO.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Dtos\\ConsultaDTO.cs",
+              "RelativeToolTip": "Dominio\\Dtos\\ConsultaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:13:59.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\appsettings.json",
+              "RelativeDocumentMoniker": "ConsultaMedica\\appsettings.json",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\appsettings.json",
+              "RelativeToolTip": "ConsultaMedica\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-28T19:04:35.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Program.cs",
+              "RelativeDocumentMoniker": "ConsultaMedica\\Program.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Program.cs",
+              "RelativeToolTip": "ConsultaMedica\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T13:24:56.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ConsultaValidation.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Validation\\ConsultaValidation.cs",
+              "RelativeDocumentMoniker": "ConsultaMedica\\Validation\\ConsultaValidation.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Validation\\ConsultaValidation.cs",
+              "RelativeToolTip": "ConsultaMedica\\Validation\\ConsultaValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T17:01:15.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MedicoValidation.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Validation\\MedicoValidation.cs",
+              "RelativeDocumentMoniker": "ConsultaMedica\\Validation\\MedicoValidation.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Validation\\MedicoValidation.cs",
+              "RelativeToolTip": "ConsultaMedica\\Validation\\MedicoValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:58:22.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SecretariaValidator.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Validation\\SecretariaValidator.cs",
+              "RelativeDocumentMoniker": "ConsultaMedica\\Validation\\SecretariaValidator.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Validation\\SecretariaValidator.cs",
+              "RelativeToolTip": "ConsultaMedica\\Validation\\SecretariaValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:58:41.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SecretariaController.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Controllers\\SecretariaController.cs",
+              "RelativeDocumentMoniker": "ConsultaMedica\\Controllers\\SecretariaController.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Controllers\\SecretariaController.cs",
+              "RelativeToolTip": "ConsultaMedica\\Controllers\\SecretariaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T18:01:07.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MedicoController.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Controllers\\MedicoController.cs",
+              "RelativeDocumentMoniker": "ConsultaMedica\\Controllers\\MedicoController.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Controllers\\MedicoController.cs",
+              "RelativeToolTip": "ConsultaMedica\\Controllers\\MedicoController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T17:58:07.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "ConsultaMedica\\Controllers\\UsuarioController.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "ConsultaMedica\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:51:05.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ConsultaController.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Controllers\\ConsultaController.cs",
+              "RelativeDocumentMoniker": "ConsultaMedica\\Controllers\\ConsultaController.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Controllers\\ConsultaController.cs",
+              "RelativeToolTip": "ConsultaMedica\\Controllers\\ConsultaController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T18:02:57.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UsuarioValidation.cs",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Validation\\UsuarioValidation.cs",
+              "RelativeDocumentMoniker": "ConsultaMedica\\Validation\\UsuarioValidation.cs",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\ConsultaMedica\\Validation\\UsuarioValidation.cs",
+              "RelativeToolTip": "ConsultaMedica\\Validation\\UsuarioValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T13:31:37.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Interface.csproj",
+              "DocumentMoniker": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Interface.csproj",
+              "RelativeDocumentMoniker": "Interface\\Interface.csproj",
+              "ToolTip": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Interface.csproj",
+              "RelativeToolTip": "Interface\\Interface.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-28T19:35:39.845Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
