@@ -104,6 +104,9 @@ namespace InfraEstrutura.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("IdMedico")
+                        .HasColumnType("int");
+
                     b.Property<int?>("MedicoId")
                         .HasColumnType("int");
 
@@ -142,9 +145,11 @@ namespace InfraEstrutura.Migrations
 
             modelBuilder.Entity("Dominio.Entidades.Usuario", b =>
                 {
-                    b.HasOne("Dominio.Entidades.Medico", null)
+                    b.HasOne("Dominio.Entidades.Medico", "Medico")
                         .WithMany("usuario")
                         .HasForeignKey("MedicoId");
+
+                    b.Navigation("Medico");
                 });
 
             modelBuilder.Entity("Dominio.Entidades.Medico", b =>

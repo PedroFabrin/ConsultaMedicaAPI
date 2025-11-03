@@ -80,24 +80,21 @@ namespace ConsultaMedica.Controllers
         }
 
         [HttpPost("verificarSecretaria")]
-        public async Task<ActionResult<SecretariaDTO>> GetSecretariaAsync(SecretariaDTO dTO)
+        public async Task<ActionResult> LoginAsync(LoginDTO dto)
         {
-            var secretaria = await this.service.getSecretaria(dTO.email, dTO.senha);
-            if(secretaria is null)
-            {
+            var secretaria = await this.service.getSecretaria(dto.Email, dto.Senha);
+            if (secretaria == null)
                 return NotFound();
-            }
-            else
+
+            var tokenString = GerarTokenJWT();
+            return Ok(new
             {
-                var tokenString = GerarTokenJWT();
-                return Ok(new
-                {
-                    access_token = tokenString,
-                    token_type = "Bearer",
-                    expires_in = 60 * 60 // 60 min
-                });
-            }
+                access_token = tokenString,
+                token_type = "Bearer",
+                expires_in = 60 * 60
+            });
         }
+
 
 
         private string GerarTokenJWT()

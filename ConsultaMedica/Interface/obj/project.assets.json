@@ -5387,23 +5387,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fabri\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\pedrofabrin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Interface.csproj",
+      "projectUniqueName": "C:\\Users\\pedrofabrin\\Documents\\GitHub\\ConsultaMedicaAPI\\ConsultaMedica\\Interface\\Interface.csproj",
       "projectName": "Interface",
-      "projectPath": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\Interface.csproj",
-      "packagesPath": "C:\\Users\\fabri\\.nuget\\packages\\",
-      "outputPath": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Interface\\obj\\",
+      "projectPath": "C:\\Users\\pedrofabrin\\Documents\\GitHub\\ConsultaMedicaAPI\\ConsultaMedica\\Interface\\Interface.csproj",
+      "packagesPath": "C:\\Users\\pedrofabrin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pedrofabrin\\Documents\\GitHub\\ConsultaMedicaAPI\\ConsultaMedica\\Interface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\fabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pedrofabrin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5419,8 +5421,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Dominio.csproj": {
-              "projectPath": "E:\\Programacao-Api-BackEnd\\CadastroConsultasMedicas\\ConsultaMedica\\Dominio\\Dominio.csproj"
+            "C:\\Users\\pedrofabrin\\Documents\\GitHub\\ConsultaMedicaAPI\\ConsultaMedica\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\pedrofabrin\\Documents\\GitHub\\ConsultaMedicaAPI\\ConsultaMedica\\Dominio\\Dominio.csproj"
             }
           }
         }
@@ -5429,13 +5431,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -5494,7 +5490,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

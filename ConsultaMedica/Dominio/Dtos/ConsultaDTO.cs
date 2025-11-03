@@ -12,5 +12,8 @@ namespace Dominio.Dtos
         public DateTime dataConsulta { get; set; }
         public int IdMedico { get; set; }
         public int IdUsuario { get; set; }
+
+        public MedicoDTO? Medico { get; set; }
+        public UsuarioDTO? Usuario { get; set; }
     }
 }

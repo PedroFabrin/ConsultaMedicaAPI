@@ -16,10 +16,19 @@ using ConsultaMedica.Validation;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// --- CONFIGURAR CORS ---
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        policy => policy
+            .WithOrigins("http://localhost:3000") // endereço do seu front React
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+    );
+});
 
+// Add services to the container.
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -50,28 +59,28 @@ builder.Services.AddAuthentication(options =>
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
-                .AddJwtBearer(options =>
-                {
-                    options.TokenValidationParameters = new TokenValidationParameters
-                    {
-                        ValidateIssuer = true,
-                        ValidateAudience = true,
-                        ValidateLifetime = true,
-                        ValidateIssuerSigningKey = true,
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
 
-                        ValidIssuer = builder.Configuration["Jwt:Issuer"],
-                        ValidAudience = builder.Configuration["Jwt:Audience"],
-                        IssuerSigningKey = new SymmetricSecurityKey
-                      (Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
-                    };
-                });
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(
+            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+    };
+});
+
 builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 
-builder.Services.AddDbContext<ConsultaContexto>(p => p.UseSqlServer(
-    builder.Configuration.GetConnectionString("Default")));
+builder.Services.AddDbContext<ConsultaContexto>(p =>
+    p.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
 builder.Services.AddAutoMapper(p => p.AddProfile<MappingProfile>());
-
 
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
@@ -82,17 +91,15 @@ builder.Services.AddScoped<IMedicoService, MedicoService>();
 builder.Services.AddScoped<IConsultaRepositorio, ConsultaRepositorio>();
 builder.Services.AddScoped<IConsultaService, ConsultaService>();
 
-builder.Services.AddScoped<IValidator<SecretariaDTO>,
-        SecretariaValidator>();
-builder.Services.AddScoped<IValidator<UsuarioDTO>,
-        UsuarioValidation>();
-builder.Services.AddScoped<IValidator<MedicoDTO>,
-    MedicoValidation>();
-builder.Services.AddScoped<IValidator<ConsultaDTO>,
-    ConsultaValidation>();
-
+builder.Services.AddScoped<IValidator<SecretariaDTO>, SecretariaValidator>();
+builder.Services.AddScoped<IValidator<UsuarioDTO>, UsuarioValidation>();
+builder.Services.AddScoped<IValidator<MedicoDTO>, MedicoValidation>();
+builder.Services.AddScoped<IValidator<ConsultaDTO>, ConsultaValidation>();
 
 var app = builder.Build();
+
+// --- HABILITAR CORS ---
+app.UseCors("AllowReactApp");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -102,6 +109,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseAuthentication();
 app.UseAuthorization();
 

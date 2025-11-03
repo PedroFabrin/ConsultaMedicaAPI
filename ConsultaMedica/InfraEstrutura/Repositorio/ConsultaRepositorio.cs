@@ -29,12 +29,20 @@ namespace InfraEstrutura.Repositorio
 
         public async Task<IEnumerable<Consulta>> getAllAsync(Expression<Func<Consulta, bool>> expression)
         {
-            return await this.contexto.Consultas.Where(expression).OrderBy(p => p.dataConsulta).ToListAsync();
+            return await contexto.Consultas
+                .Include(c => c.medico)
+                .Include(c => c.usuario)
+                .Where(expression)
+                .OrderBy(p => p.dataConsulta)
+                .ToListAsync();
         }
 
         public async Task<Consulta?> getAsync(int id)
         {
-            return await this.contexto.Consultas.FindAsync(id);
+            return await contexto.Consultas
+                .Include(c => c.medico)
+                .Include(c => c.usuario)
+                .FirstOrDefaultAsync(c => c.Id == id);
         }
 
         public async Task removeAsync(Consulta categoria)

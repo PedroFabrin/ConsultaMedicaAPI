@@ -10,9 +10,15 @@ namespace Dominio.Entidades
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        public int anoNascimento { get; set; }  
-        public Medico IdMedico { get; set; }
+        public int anoNascimento { get; set; }
+
+        // 👇 FK opcional (pode ser null)
+        public int? IdMedico { get; set; }
+
+        // 👇 Propriedade de navegação (pra acessar o médico)
+        public virtual Medico? Medico { get; set; }
 
         public virtual List<Consulta> consultas { get; set; } = new List<Consulta>();
     }
+
 }
