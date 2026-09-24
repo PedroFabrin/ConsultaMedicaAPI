@@ -16,6 +16,21 @@ using ConsultaMedica.Validation;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// --- CHAVE JWT ---
+// Nunca versionar a chave: use dotnet user-secrets ou a variavel de ambiente Jwt__Key.
+var jwtKey = builder.Configuration["Jwt:Key"];
+if (string.IsNullOrWhiteSpace(jwtKey))
+{
+    throw new InvalidOperationException(
+        "JWT signing key is not configured. Set 'Jwt:Key' with " +
+        "`dotnet user-secrets set \"Jwt:Key\" \"<value>\"` or the 'Jwt__Key' environment variable.");
+}
+if (Encoding.UTF8.GetByteCount(jwtKey) < 32)
+{
+    throw new InvalidOperationException(
+        "JWT signing key 'Jwt:Key' is too short: HMAC-SHA256 requires at least 32 bytes (256 bits).");
+}
+
 // --- CONFIGURAR CORS ---
 builder.Services.AddCors(options =>
 {
@@ -71,7 +86,7 @@ builder.Services.AddAuthentication(options =>
         ValidIssuer = builder.Configuration["Jwt:Issuer"],
         ValidAudience = builder.Configuration["Jwt:Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(
-            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+            Encoding.UTF8.GetBytes(jwtKey))
     };
 });
 
