@@ -40,20 +40,36 @@ Controllers depend only on service interfaces, and services depend only on repos
 
 **Requirements:** .NET 8 SDK and SQL Server (LocalDB works for development).
 
-1. Set your connection string and JWT settings in `appsettings.json` (or with `dotnet user-secrets`).
-2. Apply the migrations:
+1. Set your connection string in `appsettings.json`.
+2. Configure the JWT signing key. The key is **not** stored in `appsettings.json` (`Jwt:Key` is intentionally empty there), and the API refuses to start if it is missing or shorter than 32 bytes. Use a long random value (64+ characters), for example the output of `openssl rand -base64 64`.
+
+   With user secrets (recommended for local development, the API project already has a `UserSecretsId`):
+
+```bash
+dotnet user-secrets set "Jwt:Key" "<your-random-key>" --project ConsultaMedica/ConsultaMedica
+```
+
+   Or with an environment variable (the `:` separator becomes `__`), e.g. in PowerShell:
+
+```powershell
+$env:Jwt__Key = "<your-random-key>"
+```
+
+   User secrets are only loaded in the `Development` environment (the default in `launchSettings.json`); in any other environment, use the `Jwt__Key` environment variable.
+
+3. Apply the migrations:
 
 ```bash
 dotnet ef database update --project ConsultaMedica/InfraEstrutura --startup-project ConsultaMedica/ConsultaMedica
 ```
 
-3. Run the API:
+4. Run the API:
 
 ```bash
 dotnet run --project ConsultaMedica/ConsultaMedica
 ```
 
-4. Open Swagger at `/swagger` to explore the endpoints.
+5. Open Swagger at `/swagger` to explore the endpoints.
 
 ## Related
 
